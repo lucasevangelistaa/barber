@@ -1,0 +1,229 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #c5ab7a0e;
+}
+
+header {
+    background-color: #000000d7;
+    padding-inline: 16px;
+}
+
+#home {
+    background-image: linear-gradient(to bottom, #000000b3 0%, #000000b3 50%), url(../img/img-home.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 40px 0;
+    text-align: center;
+    color: white;
+}
+
+.content {
+    margin: auto;
+    padding: 10px;
+}
+ul li:hover {
+    scale: 2px;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+ul li > a:hover {
+    color: #C5AB7A;
+
+}
+#cabelo {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 40%), url(../img/cabelo.jpg);
+    background-size: cover;
+}
+
+#barba-bigode {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 40%), url(../img/barba-bigode.jpg);
+    background-size: cover;
+}
+
+#corte-infantil {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 40%), url(../img/infantil.jpg);
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+}
+
+.content p,
+h1,
+.container-sobre span {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.content button {
+    width: 10em;
+    background-color: #C5AB7A;
+    padding: 10px;
+    border-radius: 50px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.container-sobre span {
+    color: #C5AB7A;
+}
+
+.container-sobre h1 {
+    text-transform: uppercase;
+}
+
+.container-sobre p {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+    font-weight: 300;
+    line-height: 1.4em;
+    color: #2f3233dc;
+}
+#servicos {
+    padding: 100px 20px 60px;
+}
+.servicos p {
+    color: #C5AB7A;
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+}
+.container-servicos {
+    color: white;
+}
+.container-servicos .servicos-item {
+    height: 400px;
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 20px;
+    overflow: hidden;
+    transition: all 0.5s ease-out;
+}
+#agende {
+    background-image: linear-gradient(to bottom, #0000008c 0%, #0000008c 50%), url(../img/barbershop.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100px 20px 60px;
+    color: white;
+}
+#agende span {
+    color: #C5AB7A;
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+}
+#agende h2 {
+    font-size: 30px;
+}
+.horarios {
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+.horarios p {
+    margin: 8px;
+    color: #C5AB7A;
+    font-weight: 800;
+}
+.agendar {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+.agendar h1 {
+    text-align: center;
+}
+.agendamento {
+    text-align: center;
+}
+input {
+    margin: 10px;
+}
+#nome, #email, #assunto {
+    padding: 6px;
+    background-color: #faf0dc;
+}
+.agendamento button {
+    width: 100px;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 10px;
+    background-color: #C5AB7A;
+    cursor: pointer;
+    border: none;
+    margin: 10px;
+}
+footer {
+    padding: 5px;
+    background-color: #000000d7;
+}
+.menu-rodape {
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+}
+.menu-rodape a {
+    margin: auto;
+    width: 200px;
+    padding: 10px;
+    font-size: 18px;
+    color: white;
+}
+.menu-rodape a:hover {
+    scale: 2px;
+    color: #C5AB7A;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.contato {
+    margin: auto;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+.contato p {
+    font-size: 18px;
+}
+.contato p > span {
+    color: #C5AB7A;
+}
+.creditos {
+    color: white;
+    text-align: center;
+}
+.creditos img {
+    width: 100px;
+}
+.direitos {
+    padding: 10px;
+    color: #C5AB7A;
+    text-align: center;
+}
+.logo-marca img {
+    display: flex;
+    margin: auto;
+    width: 200px;
+    border-radius: 50%;
+}

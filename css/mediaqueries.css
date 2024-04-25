@@ -1,0 +1,147 @@
+@media screen and (max-width: 700px) {
+    .content p {
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+    .content h1 {
+        margin-bottom: 20px;
+        font-size: 50px;
+        line-height: 40px;
+    }
+    .container-sobre {
+        padding: 100px 20px 60px;
+    }
+    .container-sobre span {
+        font-size: 15px;
+    }
+    .container-sobre h1 {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .servicos h1 {
+        text-align: center;
+        font-size: 30px;
+    }
+    .container-servicos {
+        margin-top: 60px;
+    }
+    
+
+    .horarios img {
+        width: 150px;
+        border-radius: 50%;
+    }
+
+    .rodape {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap-reverse;
+        align-items: center;
+    }
+
+}
+
+@media screen and (min-width: 701px) and (max-width: 900px) {
+    .content p {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .content h1 {
+        margin-bottom: 25px;
+        font-size: 55px;
+        line-height: 50px;
+    }
+    .container-sobre {
+        padding: 100px 25px 60px;
+    }
+    .container-sobre span {
+        font-size: 20px;
+    }
+    .container-sobre h1 {
+        font-size: 35px;
+        margin-bottom: 25px;
+    }
+    .container-agende {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+    }
+    .agendamento, .horarios {
+        width: 320px;
+    }
+    .servicos h1 {
+        text-align: center;
+        font-size: 35px;
+        margin-bottom: 10px;
+    }
+    .container-servicos {
+        margin-top: 60px;
+    }
+    .container-servicos {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .horarios img {
+        width: 150px;
+        border-radius: 50%;
+    }
+}
+
+@media screen and (min-width: 901px) {
+    .content p {
+        font-size: 25px;
+        margin-bottom: 25px;
+    }
+    .content h1 {
+        margin-bottom: 30px;
+        font-size: 60px;
+        line-height: 50px;
+    }
+    .container-sobre {
+        width: 70vw;
+        padding: 100px 30px 60px;
+    }
+    .container-sobre span {
+        font-size: 25px;
+    }
+    .container-sobre h1 {
+        font-size: 40px;
+        margin-bottom: 30px;
+    }
+    .servicos h1 {
+        text-align: center;
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+    .container-servicos {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 30px;
+    }
+    input {
+        width: 300px;
+    }
+    .container-agende {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+    }
+    .agendamento, .horarios {
+        width: 400px;
+    }
+    .horarios img {
+        width: 150px;
+        border-radius: 50%;
+    }
+    .rodape {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

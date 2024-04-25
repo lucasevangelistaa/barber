@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barber Styles</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/mediaqueries.css">
+    <link rel="stylesheet" href="css/hamburger-menu.css">
+</head>
+
+<body>
+    <header>
+        <nav class="nav">
+            <img class="logo" src="img/logo.jpg" alt="Logo BarberStyles">
+            <button class="hamburguer"></button>
+            <ul class="nav-list">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#agende">Agende</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home">
+        <div class="content">
+            <p>Barber Styles</p>
+            <h1>Cabelo</h1>
+            <h1>Barba</h1>
+            <h1>Bigode</h1>
+            <p>Agende agora o seu horário na melhor da cidade.</p>
+
+            <a href="#agende"><button>Agende aqui</button></a>
+        </div>
+    </section>
+    <section id="sobre">
+        <div class="container-sobre">
+            <span>Quem somos?</span>
+            <h1>Conheça a Barber Styles</h1>
+            <p class="fade-left slide-left">
+                Bem-vindo à BarberStyles, onde a tradição se encontra com a modernidade para criar uma experiência de
+                barbearia excepcional. Aqui, oferecemos serviços premium para todos os estilos de barba e cabelo, além de
+                tratamentos relaxantes como massagens e podologia.
+            </p>
+
+            <p class="fade-right slide-right">
+                Em um ambiente descontraído e exclusivamente masculino, você pode desfrutar de uma cerveja gelada, assistir
+                aos esportes ou jogar uma partida de sinuca enquanto cuidamos do seu visual.
+            </p>
+
+            <p class="fade-left slide-left">
+                Agende agora o seu corte e venha conhecer as novidades e ofertas especiais da Barber Styles e faça parte do nosso clube de homens
+                que valorizam o estilo e o bem-estar masculino.
+            </p>
+        </div>
+    </section>
+    <section id="servicos">
+        <div class="servicos">
+            <p>NOSSAS ESPECIALIDADES</p>
+            <h1>NOSSOS SERVIÇOS</h1>
+        </div>
+        <div class="container-servicos">
+            <article class="servicos-item fade-bottom slide-bottom" id="cabelo">
+                <h1>Corte de Cabelo</h1>
+                <hr>
+                <p>Nossos habilidosos barbeiros estão prontos para proporcionar o estilo ideal que reflita sua personalidade, seja com cortes clássicos ou as últimas tendências. Saia com confiança, pronto para arrasar com seu novo visual!</p>
+            </article>
+            <article class="servicos-item fade-top slide-top" id="barba-bigode">
+                <h1>Barba e Bigode</h1>
+                <hr>
+                <p>Das barbas meticulosamente aparadas a estilos ousados de bigode, nossos especialistas em barbearia estão aqui para atender às suas necessidades. Desfrute de tratamentos de barba de alta qualidade, garantindo que você saia com um visual impecável.</p>
+            </article>
+            <article class="servicos-item fade-bottom slide-bottom" id="corte-infantil">
+                <h1>Corte Infantil</h1>
+                <hr>
+                <p>Na Barber Styles, também cuidamos dos pequenos com todo carinho. Nossos barbeiros são especialistas em criar cortes de cabelo infantis que deixam as crianças se sentindo especiais e cheias de estilo.</p>
+            </article>
+        </div>
+    </section>
+    <section id="agende">
+        <span>Horários + Endereço</span>
+        <h2>Agende agora</h2>
+        <div class="container-agende fade-left slide-left">
+            <div class="horarios">
+                <img src="img/logo.jpg" alt="Logo Barber Styles">
+                <h1>Endereço:</h1>
+                <p>Rua Barber Styles, 000-Barber Styles</p>
+
+                <h1>Horário de Funcionamento</h1>
+                <p>Segunda a Sábado - 8h às 18h</p>
+                <p>Domingo - 8h às 13h</p>
+            </div>
+            <div class="agendar fade-right slide-right">
+                <h1>Agendamento</h1><br>
+                <div class="agendamento">
+                    <label for="nome">Nome:</label><br>
+                    <input type="text" name="nome" id="nome"><br>
+
+                    <label for="email">E-mail:</label><br>
+                    <input type="email" name="email" id="email"><br>
+
+                    <label for="assunto">Assunto/Mensagem:</label><br><br>
+                    <textarea name="assunto" id="assunto" cols="30" rows="10"></textarea><br><br>
+                    <button>Agendar</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="contato">
+        <div class="rodape">
+            <div class="contato">
+                <h1>Contato</h1>
+                <p><span>Telefone:</span> (00) 00000-0000</p>
+                <p><span>E-mail:</span> barberstyles@gmail.com</p>
+                <p><span>Instagram:</span> @barberstyles</p>
+            </div>
+            <div class="logo-marca">
+                <img src="img/logo.jpg" alt="">
+            </div>
+            <div class="menu-rodape">
+                <a href="#home">Home</a>
+                <a href="#sobre">Sobre</a>
+                <a href="#servico">Serviços</a>
+                <a href="#agende">Agende</a>
+                <a href="#contato">Contato</a>
+            </div>
+        </div>
+        <div class="direitos">
+            <p>&copy;BarberStyles - 2023. Todos os direitos Reservados.</p>
+        </div>
+        <div class="creditos">
+            <p>Desenvolvido por:</p>
+            <img src="img/1.png" alt="">
+        </div>
+    </footer>
+    <script defer src="js/index.js"></script>
+    <script defer src="js/hamburger-menu.js"></script>
+</body>
+
+</html>
