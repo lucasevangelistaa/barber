@@ -16,6 +16,21 @@ header {
     padding-inline: 16px;
 }
 
+a {
+    text-decoration: none;
+}
+
+ul li:hover {
+    scale: 2px;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+ul li>a:hover {
+    color: #C5AB7A;
+
+}
+
 #home {
     background-image: linear-gradient(to bottom, #000000b3 0%, #000000b3 50%), url(../img/img-home.jpg);
     background-repeat: no-repeat;
@@ -29,33 +44,6 @@ header {
 .content {
     margin: auto;
     padding: 10px;
-}
-ul li:hover {
-    scale: 2px;
-    transform: scale(1.1);
-    transition: 0.5s;
-}
-ul li > a:hover {
-    color: #C5AB7A;
-
-}
-#cabelo {
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 40%), url(../img/cabelo.jpg);
-    background-size: cover;
-}
-
-#barba-bigode {
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 40%), url(../img/barba-bigode.jpg);
-    background-size: cover;
-}
-
-#corte-infantil {
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 40%), url(../img/infantil.jpg);
-    background-size: cover;
-}
-
-a {
-    text-decoration: none;
 }
 
 .content p,
@@ -90,18 +78,22 @@ h1,
     line-height: 1.4em;
     color: #2f3233dc;
 }
+
 #servicos {
     padding: 100px 20px 60px;
 }
+
 .servicos p {
     color: #C5AB7A;
     font-weight: bold;
     text-align: center;
     font-size: 18px;
 }
+
 .container-servicos {
     color: white;
 }
+
 .container-servicos .servicos-item {
     height: 400px;
     text-align: center;
@@ -110,21 +102,38 @@ h1,
     overflow: hidden;
     transition: all 0.5s ease-out;
 }
+
+#cabelo {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 40%), url(../img/cabelo.jpg);
+    background-size: cover;
+}
+
+#barba-bigode {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 40%), url(../img/barba-bigode.jpg);
+    background-size: cover;
+}
+
+#corte-infantil {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 40%), url(../img/corte-infantil.jpg);
+    background-size: cover;
+}
+
 #agende {
     background-image: linear-gradient(to bottom, #0000008c 0%, #0000008c 50%), url(../img/barbershop.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    background-attachment: fixed;
     padding: 100px 20px 60px;
     color: white;
 }
+
 #agende span {
     color: #C5AB7A;
     font-weight: bold;
     text-align: center;
     font-size: 18px;
 }
+
 #agende h2 {
     font-size: 30px;
 }
@@ -141,6 +150,7 @@ h1,
     color: #C5AB7A;
     font-weight: 800;
 }
+
 .agendar {
     padding: 10px;
     margin: 10px;
@@ -148,19 +158,25 @@ h1,
     border: 2px solid white;
 }
 
-.agendar h1 {
-    text-align: center;
-}
-.agendamento {
-    text-align: center;
-}
 input {
     margin: 10px;
 }
-#nome, #email, #assunto {
+
+.agendar h1 {
+    text-align: center;
+}
+
+.agendamento {
+    text-align: center;
+}
+
+#nome,
+#email,
+#assunto {
     padding: 6px;
     background-color: #faf0dc;
 }
+
 .agendamento button {
     width: 100px;
     padding: 10px;
@@ -171,10 +187,35 @@ input {
     border: none;
     margin: 10px;
 }
+
 footer {
     padding: 5px;
     background-color: #000000d7;
 }
+
+.contato {
+    margin: auto;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.contato p {
+    font-size: 18px;
+}
+
+.contato p>span {
+    color: #C5AB7A;
+}
+
+.logo-marca img {
+    display: flex;
+    margin: auto;
+    width: 200px;
+    border-radius: 50%;
+}
+
 .menu-rodape {
     margin: 10px;
     padding: 10px;
@@ -183,6 +224,7 @@ footer {
     gap: 20px;
     text-align: center;
 }
+
 .menu-rodape a {
     margin: auto;
     width: 200px;
@@ -190,40 +232,23 @@ footer {
     font-size: 18px;
     color: white;
 }
+
 .menu-rodape a:hover {
     scale: 2px;
     color: #C5AB7A;
     transform: scale(1.1);
     transition: 0.5s;
 }
-.contato {
-    margin: auto;
-    color: white;
-    margin: 10px;
-    padding: 10px;
-    text-align: center;
-}
-.contato p {
-    font-size: 18px;
-}
-.contato p > span {
-    color: #C5AB7A;
-}
-.creditos {
-    color: white;
-    text-align: center;
-}
-.creditos img {
-    width: 100px;
-}
 .direitos {
     padding: 10px;
     color: #C5AB7A;
     text-align: center;
 }
-.logo-marca img {
-    display: flex;
-    margin: auto;
-    width: 200px;
-    border-radius: 50%;
+.creditos {
+    color: white;
+    text-align: center;
+}
+
+.creditos img {
+    width: 100px;
 }

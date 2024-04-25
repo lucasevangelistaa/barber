@@ -125,3 +125,30 @@ nav {
         top: -7px;
     }
 }
+
+.servicos-item {
+    position: relative;
+    overflow: hidden;
+}
+
+.servicos-item img,
+.servicos-item h1,
+.servicos-item hr {
+    opacity: 1;
+    transform: translateY(150px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.servicos-item p {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.servicos-item:hover img,
+.servicos-item:hover h1,
+.servicos-item:hover hr,
+.servicos-item:hover p {
+    opacity: 1;
+    transform: translateY(0);
+}
