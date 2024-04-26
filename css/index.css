@@ -61,6 +61,12 @@ h1,
     color: white;
     font-size: 20px;
     cursor: pointer;
+    border: none;
+}
+
+.content button:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
 }
 
 .container-sobre span {
@@ -101,6 +107,11 @@ h1,
     padding: 20px;
     overflow: hidden;
     transition: all 0.5s ease-out;
+    cursor: pointer;
+}
+
+.servicos-item img {
+    width: 100px;
 }
 
 #cabelo {
@@ -186,6 +197,13 @@ input {
     cursor: pointer;
     border: none;
     margin: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.agendamento button:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
 }
 
 footer {

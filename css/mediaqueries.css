@@ -25,20 +25,16 @@
     .container-servicos {
         margin-top: 60px;
     }
-    
-
     .horarios img {
         width: 150px;
         border-radius: 50%;
     }
-
     .rodape {
         display: flex;
         justify-content: center;
-        flex-wrap: wrap-reverse;
+        flex-direction: column-reverse;
         align-items: center;
     }
-
 }
 
 @media screen and (min-width: 701px) and (max-width: 900px) {
@@ -80,14 +76,17 @@
     }
     .container-servicos {
         display: flex;
-        justify-content: space-around;
         align-items: center;
-        gap: 30px;
+        gap: 10px;
     }
-
     .horarios img {
         width: 150px;
         border-radius: 50%;
+    }
+    .rodape {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
 }
 
@@ -121,7 +120,17 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
-        gap: 30px;
+        gap: 20px;
+    
+    }
+    .container-servicos .servicos-item {
+        height: 500px;
+    }
+    .servicos-item img {
+        width: 130px;
+    }
+    .servicos-item p {
+        font-size: 20px;
     }
     input {
         width: 300px;
