@@ -266,7 +266,11 @@ footer {
     color: white;
     text-align: center;
 }
-
-.creditos img {
-    width: 100px;
+.creditos a {
+    color: #C5AB7A;
+}
+.creditos a:hover {
+    color: #C5AB7A;
+    text-decoration: underline;
+    transition: 0.5s;
 }
